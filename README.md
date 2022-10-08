@@ -1,0 +1,1 @@
+This Project is to basically apply various basic concepts understood in JavaScript to  mini-real-world applications.
