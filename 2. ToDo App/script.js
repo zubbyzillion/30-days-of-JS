@@ -53,12 +53,6 @@ function updateLS() {
 
     const todos = []
 
-    todosEl.forEach(todoEl => {
-        todos.push({
-            text: todoEl.innerText,
-            completed: todoEl.classList.contains('completed')
-        })
-    })
-
+    
     localStorage.setItem('todos', JSON.stringify(todos))
 }
