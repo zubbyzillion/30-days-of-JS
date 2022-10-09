@@ -5,6 +5,7 @@ const circles = document.querySelectorAll('.circle')
 
 let currentActive = 1
 
+// Listens for events on click of the button
 next.addEventListener('click', () => {
     currentActive++
 
@@ -16,6 +17,7 @@ next.addEventListener('click', () => {
 
 })
 
+// Previous button logic
 prev.addEventListener('click', () => {
     currentActive--
 
@@ -27,6 +29,7 @@ prev.addEventListener('click', () => {
 
 })
 
+// Updates the active states of the current active circle and button
 function update() {
     circles.forEach((circle, idx) => {
         if (idx < currentActive) {
