@@ -48,3 +48,4 @@ function addTodo(todo) {
     }
 }
 
+function updateLS() {}
