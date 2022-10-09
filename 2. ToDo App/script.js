@@ -50,6 +50,7 @@ function addTodo(todo) {
     }
 }
 
+// Updates the array of elements when new inputs are made
 function updateLS() {
     todosEl = document.querySelectorAll('li')
 
@@ -62,5 +63,6 @@ function updateLS() {
         })
     })
 
+    // Persistent storage function
     localStorage.setItem('todos', JSON.stringify(todos))
 }
