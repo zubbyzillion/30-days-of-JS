@@ -8,12 +8,14 @@ if(todos) {
     todos.forEach(todo => addTodo(todo))
 }
 
+// Listens for events from form submission
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
     addTodo()
 })
 
+// Creates the list gotten from the form submission and updates if completed
 function addTodo(todo) {
     let todoText = input.value
 
