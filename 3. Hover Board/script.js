@@ -1,4 +1,6 @@
-
+const container = document.getElementById('container');
+const colors = ['#e74c3c', '#8e44ad', '#3498db', '#eb7e22', '#2ecc71'];
+const SQUARES = 500;
 
 // let square = '*'
 
