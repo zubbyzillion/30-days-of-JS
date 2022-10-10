@@ -1,5 +1,6 @@
 const container = document.getElementById('container');
 const colors = ['#e74c3c', '#8e44ad', '#3498db', '#eb7e22', '#2ecc71', '#09f654'];
+// creates the squares
 const SQUARES = 500;
 
 // Logical properties
