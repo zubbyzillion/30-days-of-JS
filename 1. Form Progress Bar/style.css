@@ -99,3 +99,9 @@ body {
     background-color: var(--line-border-empty);
     cursor: not-allowed;
 }
+
+small {
+    color: #b6b6b6;
+    margin-top: 2rem;
+    text-align: center;
+}
