@@ -37,6 +37,7 @@ function dragLeave() {
     this.className = 'empty';
 }
 
+// Appends the fill class to the empty class being selected to be dropped into
 function dragDrop() {
     this.className = 'empty';
     this.append(fill)
