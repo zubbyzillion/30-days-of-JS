@@ -28,6 +28,7 @@ function dragOver(e) {
     e.preventDefault();
 }
 
+// Prevents the default of the draggable element from going back to its original position when dragStart is called and when being hovered on
 function dragEnter(e) {
     e.preventDefault();
     this.className += ' hovered';
