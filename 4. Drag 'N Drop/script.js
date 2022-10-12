@@ -23,6 +23,7 @@ function dragEnd() {
     this.className = 'fill';
 }
 
+// Prevents the default of the draggable element from going back to its original position when dragStart is called
 function dragOver(e) {
     e.preventDefault();
 }
