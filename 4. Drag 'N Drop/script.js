@@ -1,6 +1,7 @@
 const fill = document.querySelector('.fill');
 const empties = document.querySelectorAll('.empty');
 
+// Listens for click events on the fill className attribute
 fill.addEventListener('dragstart', dragStart);
 fill.addEventListener('dragend', dragEnd);
 
