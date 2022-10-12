@@ -13,6 +13,7 @@ for(const empty of empties) {
     empty.addEventListener('drop', dragDrop);
 }
 
+// Initialize the dragStart event
 function dragStart() {
     this.className += ' hold';
     setTimeout(() => this.className = 'invisible', 0);   
