@@ -17,3 +17,34 @@ body {
     color: #eee;
     font-weight: 600;
 }
+
+.form {
+    padding: 50px 20px;
+    background-color: #d2e9f7;
+}
+
+.form > div {
+    width: 400px;
+    margin: 10px auto;
+}
+
+.form .form-element input,
+.form .form-element button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form .form-element button {
+    background-color: #111;
+    color: #eee;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form .result {
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin-top: 5px;
+}
