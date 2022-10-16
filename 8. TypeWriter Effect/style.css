@@ -27,5 +27,12 @@ div {
 input {
     width: 50px;
     padding: 5px;
-    font-size: ;
+    font-size: 18px;
+    background-color: #aeaeae;
+    border: none;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
 }
