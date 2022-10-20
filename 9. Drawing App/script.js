@@ -51,3 +51,6 @@ function drawLine(x1, y1, x2, y2) {
     ctx.lineWidth = size * 2
     ctx.stroke()
 }
+
+// drawCircle(100, 200)
+// drawLine(300, 300, 200, 500)
