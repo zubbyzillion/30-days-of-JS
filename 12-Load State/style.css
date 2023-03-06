@@ -13,14 +13,15 @@ body {
 }
 
 .container {
-    margin: 2rem auto;
+    margin: 6rem auto;
     max-width: 800px;
     display: flex;
     justify-content: center;
 }
 .card {
     overflow: hidden;
-    background: #fff;
+    margin: 10px
+    background-color: #fff;
     border-radius: .25rem;
     max-width: 380px;
     width: 380px;
@@ -30,6 +31,16 @@ body {
 
 .card_details {
     padding: .5rem 1rem;
+}
+
+.card_title {
+    margin: 24px 0 24px 0;
+    /* margin-top: 24px;
+    margin-bottom: 24px; */
+}
+
+.card_description {
+    margin: 24px 0 24px 0;
 }
 
 h3 {
@@ -47,4 +58,48 @@ p {
     padding: 0;
     height: 200px;
     overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.loading {
+    position: relative;
+    background-color: #e2e2e2;
+}
+
+.loading.card_image{
+    border-radius: 0;
+}
+
+.loading::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .2));
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.card_title.loading {
+    height: 1.8rem;
+}
+
+.card_image.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card_description.loading {
+    height: 80px;
 }
