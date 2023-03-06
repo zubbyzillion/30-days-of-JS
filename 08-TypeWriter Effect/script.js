@@ -1,6 +1,6 @@
 const textEl = document.getElementById('text');
 const speedEl = document.getElementById('speed');
-const text = 'Hello, My name is Nzubechukwu P. Beluonwu-Ogbo';
+const text = 'Hello, My name is Beluonwu-Ogbo Nzubechukwu .P';
 let idx = 1;
 let speed = 300 / speedEl.value;
 
